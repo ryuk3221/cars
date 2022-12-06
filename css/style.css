@@ -1,0 +1,153 @@
+*,
+*::after,
+*::before{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  padding: 0;
+  font-family:  'Roboto Condensed';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #1B1818;
+}
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+header{
+  background-color: #332208;
+}
+.header{
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+.header a{
+  color: inherit;
+  text-decoration: none;
+}
+.header__logo{
+  flex-grow: 1;
+  flex-basis: 0;
+}
+.header__nav{
+
+}
+.header__menu{
+  display: flex;
+  gap: 30px;
+}
+.phone{
+  flex-grow: 1;
+  flex-basis: 0;
+  text-align: right;
+}
+.header__menu-item{
+  padding-bottom: 5px;
+  transition: all .5s;
+  border-bottom: 1px solid #332208;
+  cursor: pointer;
+}
+.header__menu-item:hover{
+  border-bottom: 1px solid #FEFEFE;
+}
+.questions{
+  padding: 100px 0;
+}
+.questions__inner{
+  display: flex;
+}
+.form{
+  padding: 74px 94px 0 90px;
+}
+.form__title{
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  margin-bottom: 5px;
+}
+.form__text{
+  font-size: 16px;
+  line-height: 19px;
+  margin-bottom: 50px;
+}
+.form input{
+  display: block;
+  width: 100%;
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #1B1818;
+  border: none;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(0,0,0,0.1 );
+  margin-bottom: 20px;
+}
+.form input::placeholder{
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #1B1818;
+}
+.form__btn{
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  padding: 16px 36px 15px;
+  color: #FEFEFE;
+  background-color: #C5AC2D;
+  border: none;
+  cursor: pointer;
+  width: 200px;
+  display: block;
+  margin-top: 50px;
+}
+.footer{
+  background-color: #332208;
+}
+.footer__inner{
+  display: flex;
+  align-items: center;
+  padding-top: 75px;
+}
+
+ul{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+footer{
+  color: #FEFEFE;
+}
+.footer__inner a{
+  color: inherit;
+}
+.footer__btn{
+  flex-grow: 1;
+  flex-basis: 0;
+}
+.footer__link{
+  padding: 16px 19px 15px 18px;
+  background-color: #C5AC2D;
+  cursor: pointer;
+  display: inline-block;  
+}
+.footer__social{
+  display: flex;
+  gap: 30px;
+  margin-top: 21px;
+  padding-bottom: 24px;
+  justify-content: center;
+}
